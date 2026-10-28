@@ -1,9 +1,11 @@
-from torch.nn.utils.rnn import *
+import torch
+
 import articulate as art
 from articulate.utils.torch import *
 from config import *
-from utils import *
 from dynamics import PhysicsOptimizer
+from torch.nn.utils.rnn import *
+from utils import *
 
 
 class PIP(torch.nn.Module):
